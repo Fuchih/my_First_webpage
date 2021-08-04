@@ -1,0 +1,245 @@
+* {
+    margin : 0;
+    padding: 0;
+    font   : 16px/1.5 Verdana;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+}
+
+.w {
+    width : 1500px;
+    margin: 0 auto;
+
+}
+
+hr {
+    height          : 1px;
+    background-color: #ccc;
+    border          : none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display   : block;
+    font-size : 0;
+    content   : " ";
+    clear     : both;
+    height    : 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+header {
+    position        : fixed;
+    z-index         : 10;
+    width           : 100%;
+    height          : 50px;
+    box-shadow      : 0 2px 10px #ccc;
+    letter-spacing  : 2px;
+    background-color: #fff;
+}
+
+.top-right,
+.top-left {
+    height     : 38px;
+    line-height: 38px;
+    text-align : center;
+}
+
+.top-right {
+    float : left;
+    width : 187px;
+    margin: 5px 10px;
+}
+
+.top-left {
+    float  : right;
+    padding: 0 20px;
+}
+
+b {
+    font-weight: bolder;
+}
+
+header div {
+    float : right;
+    margin: 5px 20px;
+}
+
+header div ul li {
+    float: right;
+}
+
+header a:hover,
+.top-left:hover {
+    background-color: #ccc;
+}
+
+.w .pic {
+    position: relative;
+    margin  : 50px auto;
+}
+
+.heading-pic {
+    position      : absolute;
+    top           : 430px;
+    left          : 50%;
+    margin-left   : -150px;
+    font-size     : 40px;
+    letter-spacing: 2px;
+    color         : #fff;
+}
+
+.heading-pic span {
+    width      : 85px;
+    height     : 60px;
+    padding    : 15px;
+    background : rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size  : 40px;
+
+}
+
+.projects h1 {
+    margin-bottom: 60px;
+}
+
+.projects ul li {
+    position: relative;
+    overflow: hidden;
+    float   : left;
+    width   : 360px;
+    height  : 240px;
+    margin  : 0 16px 15px 0;
+}
+
+.projects ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.projects ul li img {
+    width: 100%;
+}
+
+.projects ul li span {
+    position        : absolute;
+    z-index         : 1;
+    top             : 0;
+    left            : 0;
+    display         : inline-block;
+    width           : 150px;
+    height          : 40px;
+    line-height     : 40px;
+    text-align      : center;
+    background-color: black;
+    color           : #fff;
+
+}
+
+.about h1 {
+    margin: 70px 0 15px 0;
+}
+
+.about p {
+    margin: 20px 0 40px 0;
+
+}
+
+.person ul li {
+    float       : left;
+    width       : 360px;
+    height      : 455px;
+    margin-right: 20px;
+    filter      : grayscale(70%);
+}
+
+.person ul li:last-child {
+    margin-right: 0;
+}
+
+.person ul li img {
+    width: 100%;
+}
+
+.person ul li h3 {
+    font-size: 20px;
+}
+
+.person ul li h6 {
+    margin: 20px 0;
+    color : #666;
+}
+
+.person ul li a {
+    display         : inline-block;
+    width           : 360px;
+    line-height     : 45px;
+    margin-top      : 15px;
+    text-align      : center;
+    background-color: #f1f1f1;
+}
+
+.contact h1 {
+    margin: 120px 0 20px 0;
+}
+
+.contact p {
+    margin: 20px 0 10px 0;
+}
+
+input {
+    width        : 1500px;
+    height       : 40px;
+    margin-bottom: 18px;
+    border       : 1px solid #ccc;
+}
+
+input::placeholder {
+    padding: 10px;
+}
+
+button {
+    width           : 150px;
+    height          : 40px;
+    margin          : 12px 0 45px 0;
+    background-color: black;
+    color           : #fff;
+    border          : none;
+}
+
+button:hover {
+    background-color: #ccc;
+    color           : black;
+    cursor          : pointer;
+}
+
+footer {
+    width           : 100%;
+    height          : 80px;
+    text-align      : center;
+    background-color: black;
+    color           : #fff;
+}
+
+footer a {
+    line-height    : 80px;
+    color          : #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #4caf50;
+}
